@@ -13,13 +13,13 @@ public class PlaysafeApp
     {
     	ConversionService conversionService = new ConversionServiceImpl();
     	
-    	double myKelvin = 3;
-    	double myMiles = 7;
-		double myPounds = 9;
+    	double myKelvinValue = 3;
+    	double myMilesValue = 7;
+		double myPoundsValue = 9;
 
-		System.out.println("Kelvin to Celcius: " + conversionService.kelvinToCelcius(myKelvin ));
-		System.out.println("Miles to Kilometers: " + conversionService.milesToKilometers(myMiles));
-		System.out.println("Pounds to Kilograms: " + conversionService.poundsToKilograms(myPounds));
+		System.out.println("Kelvin to Celcius: " + conversionService.kelvinToCelcius(myKelvinValue ));
+		System.out.println("Miles to Kilometers: " + conversionService.milesToKilometers(myMilesValue));
+		System.out.println("Pounds to Kilograms: " + conversionService.poundsToKilograms(myPoundsValue));
 		
 		
         System.out.println( "Playsafe application ran successfully..." );
