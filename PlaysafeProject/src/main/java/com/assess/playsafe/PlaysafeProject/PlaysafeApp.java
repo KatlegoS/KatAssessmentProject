@@ -3,10 +3,7 @@ package com.assess.playsafe.PlaysafeProject;
 import com.assess.playsafe.PlaysafeProject.service.ConversionService;
 import com.assess.playsafe.PlaysafeProject.service.impl.ConversionServiceImpl;
 
-/**
- * Hello world!
- *
- */
+
 public class PlaysafeApp 
 {
     public static void main( String[] args )

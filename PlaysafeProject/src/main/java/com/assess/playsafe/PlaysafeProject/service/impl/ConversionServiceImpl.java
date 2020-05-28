@@ -19,7 +19,7 @@ public class ConversionServiceImpl implements ConversionService {
 		double kilo = pounds * 0.45;
 		return kilo;
 		}else {
-			throw new RuntimeException("pounds cannot be null or 0");
+			throw new RuntimeException("Pounds cannot be null or 0");
 		}
 	}
 
@@ -28,7 +28,7 @@ public class ConversionServiceImpl implements ConversionService {
 		double kilometers = miles * 1.60934;
 		return kilometers;
 		}else {
-			throw new RuntimeException("miles cannot be null or 0");
+			throw new RuntimeException("Miles cannot be null or 0");
 		}
 	}
 
